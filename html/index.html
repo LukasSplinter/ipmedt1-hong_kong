@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Staatliches&amp;display=swap" rel="stylesheet">
+
+  <link rel="icon" href="../data/favicon.ico">
+  <link rel="stylesheet" href="../css/main.min.css">
+  <script src="../js/main.js"></script>
+
+  <title>Hong Kong</title>
+</head>
+<body>
+  <div class="endingOverlay" id="js--endingOverlay">
+    <p class="endingOverlay__text endingOverlay__endingStory" id="js--endingStory"></p>
+    <div class="endingOverlay__informationContainer" id="js--endingOverlay__informationContainer">
+      <h2 class="endingOverlay__subtitle">bronnen:</h2>
+      <p class="endingOverlay__text endingOverlay__endingSources">
+      https://www.amnesty.nl/wat-we-doen/landen/land-china/hongkong-protesten-tegen-uitleveringswet-china</p>
+      <p class="endingOverlay__text endingOverlay__endingSources">
+        https://hk.news.appledaily.com/local/realtime/article/20191011/60139820</p>
+      <p class="endingOverlay__text endingOverlay__endingSources">
+        https://www.rtlnieuws.nl/nieuws/bundel/1623036/protesten-hongkong</p>
+      <h2 class="endingOverlay__subtitle">afbeeldingen:</h2>
+      <p class="endingOverlay__text endingOverlay__endingSources">
+        https://wwww.reddit.com/r/hongkong</p>
+      <p class="endingOverlay__text endingOverlay__endingSources">
+        https://www.twitter.com/hashtag/freehongkong</p>
+      <p class="endingOverlay__text endingOverlay__endingInformation">
+        Alhoewel deze app gebasseerd is op de echte gebeurtenissen in Hong Kong, is zelf niks in deze app echt gebeurd, en de karakters in deze app zijn fictief.
+      </p>
+    </div>
+    <div class="endingOverlay__restart" id="js--endingRestart">
+      <h2 class="endingOverlay__restart__text">herstart</h2>
+    </div>
+  </div>
+  <div class="imageOverlay" id="js--imageOverlay">
+    <div class="imageOverlay__content">
+      <span class="imageOverlay__content__close" id="js--overlay_close">×</span>
+      <img src="../data/Ashley.jpg" alt="picture" class="imageOverlay__content__image" id="js--overlayImage">
+    </div>
+  </div>
+  <div class="landscapeModal">
+    <div class="landscapeContainer">
+      <div class="landscapeContainer__textContainer">
+        <p class="landscapeContainer__textContainer__text landscapeContainer__textContainer__text-preRed">Voor de beste</p>
+        <p class="landscapeContainer__textContainer__text-red">ervaring</p>
+        <p class="landscapeContainer__textContainer__text">Draai uw mobiel om</p>
+      </div>
+      <img src="../data/turn_phone.png" alt="turn phone icon" class="landscapeContainer__icon">
+    </div>
+  </div>
+  <div class="callScreen" id="js--callScreen">
+    <div class="callScreen__profilePictureContainer">
+      <img src="../data/Ashley.jpg" alt="Profile picture" class="callScreen__profilePicture">
+    </div>
+    <p class="callScreen__calling" id="js--callStatus">calling</p>
+    <p class="callScreen__name">Ashley</p>
+    <div class="callScreen__dotsContainer">
+      <div class="callScreen__dotsContainer__dot calling"></div>
+      <div class="callScreen__dotsContainer__dot calling"></div>
+      <div class="callScreen__dotsContainer__dot calling"></div>
+    </div>
+    <img src="../data/hang_up.png" alt="hang up" class="callScreen__hangUp" id="js--hangUp">
+  </div>
+  <div class="homeScreen" id="js--homeScreen" style="display: none;">
+    <h2 class="time" id="js--time">13:43</h2>
+    <p class="date" id="js--date">12 Maart 2021</p>
+
+    <div class="notificationContainer">
+      <div class="notification">
+        <div class="notification__topBar">
+          <img src="../data/news.png" alt="News icon" class="notification__topBar__icon">
+          <p class="notification__topBar__title">NIEUWS</p>
+          <p class="notification__topBar__time">nu</p>
+        </div>
+        <div class="notification__main">
+          <p class="notification__main__text">Protesten in Hong Kong blijven de komende tijd door gaan, China is vastbesloten de wetten
+          in te voeren, en de Chinese politie slaat met harde hand de protesten neer.</p>
+        </div>
+      </div>
+      <div class="notification">
+        <div class="notification__topBar">
+          <img src="../data/information.png" alt="News icon" class="notification__topBar__icon">
+          <p class="notification__topBar__title">UITLEG</p>
+          <p class="notification__topBar__time">nu</p>
+        </div>
+        <div class="notification__main">
+          <p class="notification__main__text">Met deze app praat je met de fictieve Ashley, die haar ervaringen van de Hong Kong protesten met je deelt,
+          en jou de keuzes voor haar laat maken.</p>
+        </div>
+      </div>
+      <div class="notification">
+        <div class="notification__topBar">
+          <img src="../data/warning.jpg" alt="News icon" class="notification__topBar__icon">
+          <p class="notification__topBar__title">WAARSCHUWING</p>
+          <p class="notification__topBar__time">nu</p>
+        </div>
+        <div class="notification__main">
+          <p class="notification__main__text">Alhoewel al de situaties op echte gebeurtenissen gebaseerd zijn, is niks in deze ervaring echt gebeurd.</p>
+          <p class="notification__main__text-red">Kan beelden van geweld bevatten.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="unlock rubberband" id="js--unlock">Unlock</h3>
+  </div>
+  <div class="topBar" id="js--topBar" style="display: block;">
+    <div class="informationContainer">
+      <img src="../data/Ashley.jpg" alt="Profile picture" class="profile_picture">
+      <div class="nameStatus">
+        <h1 class="nameStatus__name">Ashley</h1>
+        <p class="nameStatus__status" id="js--status">Online</p>
+      </div>
+    </div>
+    <img src="../data/ring.png" alt="Call button" class="callButton" id="js--call">
+  </div>
+  <div class="chatContainer" id="js--chatContainer">
+  <div class="textMessage"><div class="textBubble"><h2>Hey!</h2></div></div><div class="textMessage"><div class="textBubble"><h2>ben je online?</h2></div></div><div class="textMessage"><div class="textBubble"><h2>Ik heb je hulp nodig. 😅</h2></div></div><div class="textMessage"><div class="textBubble__green"><h2>Hey! Wat is er?</h2></div></div><div class="textMessage"><div class="textBubble" style="margin: 5px 20px;"><h2>Heb je gehoord van de protesten in Hong Kong?</h2></div></div></div>
+  <div class="bottomBar" id="js--bottomBar" style="display: block;">
+    <div class="defaultContainer" id="js--defaultContainer">
+      <img src="../data/file.png" alt="add file" class="bottomBar__file">
+      <div class="bottomBar__text_bar show" id="js--textBar">
+        <p class="bottomBar__text_bar__text" id="js--textBar-text">kies een antwoord</p>
+      </div>
+      <img src="../data/camera.png" alt="add picture" class="bottomBar__picture">
+    </div>
+    <div class="responseContainer hidden" id="js--responseContainer">
+      <div class="textMessage">
+        <div class="textBubble__green responseMessage">
+          <h2 style="text-decoration: none;">Nee?</h2>
+        </div>
+      </div>
+      <div class="textMessage">
+        <div class="textBubble__green responseMessage">
+          <h2 style="text-decoration: none;">Volgens mij wel</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body></html>
